@@ -858,7 +858,8 @@ a.link-small {
 }
 a.link-small-underline {
 	font-size: 1.6rem;
-	text-decoration: underline;
+	text-decoration: none;
+	font-weight: bold;
 }
 a.link-small-160lh {
 	display: -webkit-inline-box;
@@ -895,8 +896,9 @@ a.link-small-160lh {
 		font-size: 1.8rem;
 	}
 	a.link-small-underline {
+		font-weight: bold;
 		font-size: 1.8rem;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 	a.link-small-160lh {
 		font-size: 1.8rem;
