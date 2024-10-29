@@ -6445,6 +6445,15 @@ form textarea:required:valid {
 	border-radius: var(--_radius);
 	text-align: center;
 }
+
+.lang-cards__card {
+	position: relative;
+	width: 100%;
+	padding: 3rem;
+	background-color: var(--base);
+	text-align: center;
+}
+
 @media only screen and (min-width: 1600px) {
 	.tools-cards__card {
 		padding: 5rem 3rem;
