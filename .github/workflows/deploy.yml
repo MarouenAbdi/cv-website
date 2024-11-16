@@ -37,5 +37,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist # Directory where the build is output
-          destination_dir: esri # Subdirectory where the project will be deployed
+          publish_dir: esri/dist
+          destination_dir: esri
