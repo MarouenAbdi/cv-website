@@ -16,7 +16,7 @@ jobs:
 
       # Navigate to the React project directory
       - name: Navigate to React Project Directory
-        run: cd esri
+        run: cd ../esri
 
       # Setup Node.js environment
       - name: Setup Node.js
@@ -37,5 +37,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: esri/dist
-          destination_dir: esri
+          publish_dir: ../esri/dist
+          destination_dir: ../esri
